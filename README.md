@@ -16,7 +16,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 ![Mobile-Preview](Mobile-Preview.png)
 
 ### Links
-- Solution URL: [https://social-links-profile-template.netlify.app/code.txt]
+- Solution URL: [view-source:https://social-links-profile-template.netlify.app/]
 - Live Site URL: [https://social-links-profile-template.netlify.app/]
 
 
