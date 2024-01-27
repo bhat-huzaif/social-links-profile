@@ -11,7 +11,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    body, body div.padding, body div.main > *{
+    body, body , body main > *{
       
       display: flex;
       justify-content: center;
@@ -24,29 +24,24 @@
       height: 100dvh;
       width: 100dvw;
     }
-    body > div.padding{
-      width: 825px;
-      height: 100%;
-      align-items: center;
-    }
-   body div.padding > div.main
+   body > main
     {
-      height: 307px;
-      padding: 23px;
-      width: 176px;
+      height: 350px;
+      padding: 23px 23px;
+      width: 210px;
       background-color: hsl(0, 0%, 12%);
       border-radius: 8px;
     }
-    body > div.padding > div.main > div.img-container{
+    body > main > section.img-container{
       width: 100%;
       height: max-content;
     }
-    body > div.padding > div.main > div.img-container > img.profile{
+    body > main > section.img-container > img.profile{
       height: 50px;
       width: 50px;
       border-radius: 50%;
     }
-    body > div.padding > div.main > div.name-container{
+    body > main > section.name-container{
       width: 100%;
       height: max-content;
       flex-direction: column;
@@ -58,16 +53,16 @@
       align-items: center;
       color: white;
     }
-    body > div.padding > div.main > div.name-container p.name{
+    body > main > section.name-container h1{
       color: white;
       margin: 0%;
     }
-    body > div.padding > div.main > div.name-container p.address{
+    body > main > section.name-container h2{
       color: hsl(75, 94%, 57%);
       margin: 5px 0px;
       font-size: 8px;
     }
-    body > div.padding > div.main > p.work{
+    body > main > h3{
       font-size: 9px;
       color: hsl(0, 0%, 65%);
       font-size: 8px;
@@ -77,12 +72,12 @@
       align-items: flex-start;
       font-family: 'Inter', sans-serif;
     }
-    body > div.padding > div.main > div.buttons-container{
+    body > main > section.buttons-container{
       height: 55%;
       width: 100%;
       flex-direction: column;
     }
-    body > div.padding > div.main > div.buttons-container > button{
+    body > main > section.buttons-container > button{
       width: 100%;
       height: 100%;
       background-color: hsl(0, 0%, 20%);
@@ -96,18 +91,18 @@
       margin: 0px 0px 9px 0px;
       cursor: pointer;
     }
-    body > div.padding > div.main > div.buttons-container > button:hover{
+    body > main > section.buttons-container > button:hover{
       background-color:hsl(75, 94%, 57%);
       color: black;
     }
-    body > div.padding > div.main > div.buttons-container:last-child{
+    body > main > section.buttons-container:last-child{
       margin: 0px 0px 0px 0px;
     }
     @media only screen and (max-width: 414px){
-      body > div.padding{
+      body > {
        width: 100%; 
       }
-      body > div.padding > div.main{
+      body > main{
         width: 55%;
         height: 60%;
       }
@@ -115,27 +110,25 @@
   </style>
 </head>
 <body>
-  <div class="padding">
-    <div class="main">
-        <div class="img-container">
+    <main>
+        <section class="img-container">
           <img src="avatar-jessica.jpeg" alt="Profile" class="profile">
-        </div>
+        </section>
 
-        <div class="name-container">
-          <p class="name">Jessica Randall</p>
-          <p class="address">London, United Kingdom</p>
-        </div>
+        <section class="name-container">
+          <h1>Jessica Randall</h1>
+          <h2>London, United Kingdom</h2>
+        </section>
 
-        <p class="work">"Front-end developer and avid reader."</p>
+        <h3 class="work">"Front-end developer and avid reader."</h3>
 
-        <div class="buttons-container">
+        <section class="buttons-container">
           <button>GitHub</button>
           <button>Frontend Mentor</button>
           <button>LinkedIn</button>
           <button>Twitter</button>
           <button>Instagram</button>
-        </div>
-    </div>
-  </div>
+        </section>
+      </main>
 </body>
 </html>
