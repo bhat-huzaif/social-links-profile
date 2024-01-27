@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body, body div.padding, body div.main > *{
+      
+      display: flex;
+      justify-content: center;
+    }
+    body{
+      margin: 0;
+      padding: 0;
+      align-items: center;
+      background-color: hsl(0, 0%, 8%);
+      height: 100dvh;
+      width: 100dvw;
+    }
+    body > div.padding{
+      width: 825px;
+      height: 100%;
+      align-items: center;
+    }
+   body div.padding > div.main
+    {
+      height: 307px;
+      padding: 23px;
+      width: 176px;
+      background-color: hsl(0, 0%, 12%);
+      border-radius: 8px;
+    }
+    body > div.padding > div.main > div.img-container{
+      width: 100%;
+      height: max-content;
+    }
+    body > div.padding > div.main > div.img-container > img.profile{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+    }
+    body > div.padding > div.main > div.name-container{
+      width: 100%;
+      height: max-content;
+      flex-direction: column;
+      margin: 20px 0px 10px 0px;
+      font-family: 'Inter', sans-serif;
+      font-size: 13.5px;
+      font-weight: 700;
+      justify-content: flex-start;
+      align-items: center;
+      color: white;
+    }
+    body > div.padding > div.main > div.name-container p.name{
+      color: white;
+      margin: 0%;
+    }
+    body > div.padding > div.main > div.name-container p.address{
+      color: hsl(75, 94%, 57%);
+      margin: 5px 0px;
+      font-size: 8px;
+    }
+    body > div.padding > div.main > p.work{
+      font-size: 9px;
+      color: hsl(0, 0%, 65%);
+      font-size: 8px;
+      font-weight: 600;
+      margin: 0px 0px 15px 0px;
+      justify-content: center;
+      align-items: flex-start;
+      font-family: 'Inter', sans-serif;
+    }
+    body > div.padding > div.main > div.buttons-container{
+      height: 55%;
+      width: 100%;
+      flex-direction: column;
+    }
+    body > div.padding > div.main > div.buttons-container > button{
+      width: 100%;
+      height: 100%;
+      background-color: hsl(0, 0%, 20%);
+      border-radius: 5px;
+      text-align: center;
+      color: hsl(0, 0%, 90%);
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      border: 0px;
+      font-size: 8px;
+      margin: 0px 0px 9px 0px;
+      cursor: pointer;
+    }
+    body > div.padding > div.main > div.buttons-container > button:hover{
+      background-color:hsl(75, 94%, 57%);
+      color: black;
+    }
+    body > div.padding > div.main > div.buttons-container:last-child{
+      margin: 0px 0px 0px 0px;
+    }
+    @media only screen and (max-width: 414px){
+      body > div.padding{
+       width: 100%; 
+      }
+      body > div.padding > div.main{
+        width: 55%;
+        height: 60%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="padding">
+    <div class="main">
+        <div class="img-container">
+          <img src="/assets/images/avatar-jessica.jpeg" alt="Profile" class="profile">
+        </div>
+
+        <div class="name-container">
+          <p class="name">Jessica Randall</p>
+          <p class="address">London, United Kingdom</p>
+        </div>
+
+        <p class="work">"Front-end developer and avid reader."</p>
+
+        <div class="buttons-container">
+          <button>GitHub</button>
+          <button>Frontend Mentor</button>
+          <button>LinkedIn</button>
+          <button>Twitter</button>
+          <button>Instagram</button>
+        </div>
+    </div>
+  </div>
+<!-- 
+
+  GitHub
+  Frontend Mentor
+  LinkedIn
+  Twitter
+  Instagram
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. -->
+  </div>
+</body>
+</html>
