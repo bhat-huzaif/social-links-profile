@@ -24,6 +24,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - Desktop-first workflow
 
 ## Author
-- Website - [Huzaif]
+- Website - Huzaif
 - Frontend Mentor - [@bhat-huzaif](https://www.frontendmentor.io/profile/bhat-huzaif)
 - Instagram - [bhat_huzaif_94](https://www.instagram.com/bhat_huzaif_94)
