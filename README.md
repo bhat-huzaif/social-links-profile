@@ -9,16 +9,13 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Built with](#built-with)
 - [Author](#author)
 
-
 ## Overview
 ### Screenshot
 ![Desktop-Preview](Desktop-Preview.png)
 ![Mobile-Preview](Mobile-Preview.png)
 
 ### Links
-- Solution URL: [https://social-links-profile-template.netlify.app/code.txt]
 - Live Site URL: [https://social-links-profile-template.netlify.app/]
-
 
 ## My process
 ### Built with
@@ -26,8 +23,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - Flexbox
 - Desktop-first workflow
 
-
 ## Author
-- Website - [Huzaif](https://www.your-site.com)
+- Website - [Huzaif]([https://clone-of](https://clone-of-zomato.netlify.app/))
 - Frontend Mentor - [@bhat-huzaif](https://www.frontendmentor.io/profile/bhat-huzaif)
-- Instagram - [bhat_huzaif_94](https://www.twitter.com/bhat_huzaif_94)
+- Instagram - [bhat_huzaif_94](https://www.instagram.com/bhat_huzaif_94)
