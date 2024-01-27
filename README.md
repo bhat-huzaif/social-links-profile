@@ -12,8 +12,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## Overview
 ### Screenshot
-![Desktop-Preview](/Screenshots/Desktop-Preview.png)
-![Mobile-Preview](/Screenshots/Mobile-Preview.png)
+![Desktop-Preview](Desktop-Preview.png)
+![Mobile-Preview](Mobile-Preview.png)
 
 ### Links
 - Solution URL: []
