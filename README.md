@@ -25,6 +25,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## Author
 - Website - Huzaif - [https://social-links-profile-template.netlify.app/]
-- Frontend Mentor - [@bhat-huzaif](https://www.frontendmentor.io/profile/Huzaif-Hilal)
+- Frontend Mentor - [@Huzaif-Hilal](https://www.frontendmentor.io/profile/Huzaif-Hilal)
 - Instagram - [bhat_huzaif_94](https://www.instagram.com/bhat_huzaif_94)
 - GitHub - [Huzaif-Hilal](https://www.instagram.com/Huzaif-Hilal)
